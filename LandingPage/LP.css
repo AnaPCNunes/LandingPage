@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #A9A9A9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main {
+    padding: 20px;
+    
+  }
+  
+  form {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  button[type="submit"] {
+    background-color: #787878;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+  }
+
+  #participate-btn {
+    background-color: #787878;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: none;
+    cursor: pointer;
+  }
+
+  .section2{
+    display: flex;
+    flex-direction: row;
+    height:787px ;
+    width: 100%;
+ 
+    margin-bottom: -20px;
+  }
+
+  .part{
+    background-color:#787878 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    header h1 {
+      font-size: 24px;
+    }
+    main {
+      padding: 10px;
+    }
+    form {
+      display: block;
+      margin: 20px auto;
+    }
+    input[type="email"] {
+      width: 100%;
+    }
+  }
+  
+  
